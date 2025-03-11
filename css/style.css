@@ -1,0 +1,88 @@
+:root {
+    --pyellow: #F0EAD2;
+    --pgreen: #DDE5B6;
+    --dgreen: #ADC178;
+    --brown: #A98467;
+    --dbrown: #6C584C; 
+    --red: #b23a48; 
+    --dred: #b23a48;
+
+    
+    --font-main: "Inter", sans-serif;
+    --font-cursive: "Dancing Script", cursive;
+}
+
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: var(--font-main);
+  color: var(--dbrown);
+  font-weight: 500;
+  background-color: var(--pgreen);
+  background: url(images/background.png);
+  /*background: url('images/backgrsound.png');*/
+} 
+
+.title {
+    display: flex;
+    font-size: 60px;
+    background-color: #ADC178;
+    color: #6C584C;
+    padding: 9px;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+.divider {
+    background:url(/images/ribbon.png);
+    background-color: #6C584C;
+    background: url('images/backgrsound.png');
+}
+
+.outbox {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+}
+
+
+.header { 
+  background: fixed;
+  color: var(--pyellow);
+  
+  
+}
+
+.navbar {
+    width: 30%;
+    height: auto;
+    position: relative;
+}
+
+.topblock {
+    width: 400px;
+    display: flex;
+}
+
+
+#center {
+    width: 200px;
+    color: #b23a48;
+}
+
+#sections {
+    background-color: #ADC178;
+    color: #6C584C;
+    
+}
+
+#stuff {
+    color: #6C584C;
+}
